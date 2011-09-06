@@ -15,7 +15,7 @@ class PeopleController < ApplicationController
       session[:referred_by] = nil
       render :action => 'new'
     else
-      render :action => 'new'
+      render :action => 'invite'
     end
   end
   
