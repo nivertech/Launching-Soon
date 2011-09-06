@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(:version => 20101008191546) do
 
-  create_table "people", :force => true do |t|
+  create_table "persons", :force => true do |t|
     t.string   "name"
     t.string   "email"
     t.string   "referral_code"
