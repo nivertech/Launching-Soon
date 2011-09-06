@@ -2,17 +2,17 @@
 %html
   %head
     %meta(content="text/html; charset=utf-8" http-equiv="Content-type")
-    %meta(content="Workflow is an online collaboration and project management tool designed to boost personal productivity." name="description")
-    %title= 'Personal productivity, online collaboration, project management: Workflow'
+    %meta(content="Buy Some Damn Art is a weekly email sale of affordable original artworks." name="description")
+    %title= 'Buy Some Damn Art'
     = stylesheet_link_tag 'app'
   %body
     #top
       #content
-        %h1= link_to 'Workflow', root_url
+        %h1= link_to 'Buy Some Damn Art', root_url
         = yield
         
-        -#%p.twitter!= 'Follow <a href="http://twitter.com/hitchd">@hitchd</a> on Twitter for news & updates.'
-        #footer!= 'Copyright &copy; 2011 Workflow. By <a href="http://abinoda.com">Abi Noda</a>.'
+        %p.twitter!= 'Follow <a href="http://twitter.com/buysomedamnart">@buysomedamnart</a> on Twitter for news & updates.'
+        -# #footer!= 'Copyright &copy; 2011 Workflow. By <a href="http://abinoda.com">Abi Noda</a>.'
     = javascript_include_tag 'jquery-1.4.2.min'
     = javascript_include_tag 'app'
     = render :partial => 'layouts/google_analytics'
