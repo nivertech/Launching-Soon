@@ -1,7 +1,7 @@
 LaunchingSoon::Application.routes.draw do
   resources :people
   match ':referral_code' => 'people#new', :as => :referral  
-  root :to => 'people#new'
+  root :to => 'people#new', :as => '/'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
