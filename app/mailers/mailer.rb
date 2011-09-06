@@ -10,6 +10,6 @@ class Mailer < ActionMailer::Base
   
   def vip(person)
     @referral_code = person.referral_code
-    mail(:to => person.email, :subject => "Thanks for the referral!")
+    mail(:to => person.email, :subject => "Thanks for the referrals!")
   end  
 end

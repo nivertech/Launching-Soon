@@ -13,7 +13,7 @@ class PeopleController < ApplicationController
     
     if @person.save
       session[:referred_by] = nil
-      render :action => 'invite'
+      render :action => 'new'
     else
       render :action => 'new'
     end
