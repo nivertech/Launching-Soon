@@ -1,9 +1,8 @@
-%h2= 'Streamline your work flow, simplify your life.'
-%p.description!= 'Workflow is an online collaboration and project management tool designed to boost personal productivity. We help you collaborate and efficiently manage projects and people online while optimizing your personal agenda so you can focus on getting things done.'
-
+%h2= 'Buy Some Damn Art'
+%p.description!= 'Buy Some Damn Art sends you weekly emails with affordable original artworks that you can buy.'
 - form_for @person do |f|
   = f.text_field :email, :class => 'text'
   = f.submit 'Submit', :class => 'submit'
   - if @person.email.blank?
-    = f.label :email, 'Enter your email address for a private beta invite.'
+    = f.label :email, 'Enter your email to get art sales in your inbox.'
   = f.error_message_on :email

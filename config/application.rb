@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
-DEFAULT_HOST = 'getworkflow.com'
+DEFAULT_HOST = 'buysomedamnart.com'
 
 module LaunchingSoon
   class Application < Rails::Application
