@@ -117,10 +117,11 @@ h2 {
   text-align: center;
   width: 320px;
   font-size: 18px;
-  color: #ff00ff;
+  color: #444;
+  line-height: 160%;
 }
 
-/* line 59, ../../app/stylesheets/application.scss */
+/* line 60, ../../app/stylesheets/application.scss */
 .description {
   line-height: 1.5;
   font-size: 16px;
@@ -128,7 +129,7 @@ h2 {
   clear: both;
 }
 
-/* line 66, ../../app/stylesheets/application.scss */
+/* line 67, ../../app/stylesheets/application.scss */
 form {
   margin-top: 42px;
   margin-bottom: 78px;
@@ -143,7 +144,7 @@ form {
   border-radius: 4px;
   height: 40px;
 }
-/* line 75, ../../app/stylesheets/application.scss */
+/* line 76, ../../app/stylesheets/application.scss */
 form label {
   color: #666;
   position: absolute;
@@ -152,7 +153,7 @@ form label {
   font-size: 12px;
   cursor: text;
 }
-/* line 84, ../../app/stylesheets/application.scss */
+/* line 85, ../../app/stylesheets/application.scss */
 form .formError {
   position: absolute;
   bottom: -18px;
@@ -161,12 +162,12 @@ form .formError {
   color: #FF525D;
   font-size: 9px;
 }
-/* line 93, ../../app/stylesheets/application.scss */
+/* line 94, ../../app/stylesheets/application.scss */
 form input {
   outline: 0;
   border: none;
 }
-/* line 98, ../../app/stylesheets/application.scss */
+/* line 99, ../../app/stylesheets/application.scss */
 form .text {
   position: absolute;
   top: 12px;
@@ -175,7 +176,7 @@ form .text {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 107, ../../app/stylesheets/application.scss */
+/* line 108, ../../app/stylesheets/application.scss */
 form .submit {
   cursor: pointer;
   position: absolute;
@@ -197,7 +198,7 @@ form .submit {
   border-radius: 4px;
 }
 
-/* line 124, ../../app/stylesheets/application.scss */
+/* line 125, ../../app/stylesheets/application.scss */
 .referral_url {
   background-color: #fff;
   -moz-border-radius: 4px;
@@ -212,7 +213,7 @@ form .submit {
   float: left;
 }
 
-/* line 133, ../../app/stylesheets/application.scss */
+/* line 134, ../../app/stylesheets/application.scss */
 .share_links {
   float: left;
   display: block;
@@ -221,24 +222,24 @@ form .submit {
   top: 6px;
   left: 21px;
 }
-/* line 141, ../../app/stylesheets/application.scss */
+/* line 142, ../../app/stylesheets/application.scss */
 .share_links li {
   float: left;
   margin-top: 12px;
   margin-right: 12px;
 }
 
-/* line 147, ../../app/stylesheets/application.scss */
+/* line 148, ../../app/stylesheets/application.scss */
 .twitter {
   font-size: 12px;
   color: #333;
 }
-/* line 151, ../../app/stylesheets/application.scss */
+/* line 152, ../../app/stylesheets/application.scss */
 .twitter a {
   color: #ff00ff;
 }
 
-/* line 156, ../../app/stylesheets/application.scss */
+/* line 157, ../../app/stylesheets/application.scss */
 #footer {
   position: absolute;
   bottom: -24px;
@@ -246,7 +247,7 @@ form .submit {
   color: #666;
   font-size: 11px;
 }
-/* line 163, ../../app/stylesheets/application.scss */
+/* line 164, ../../app/stylesheets/application.scss */
 #footer a {
   text-decoration: underline;
   color: #666;
