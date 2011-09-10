@@ -12,11 +12,11 @@ class PeopleController < ApplicationController
     @person.referred_by = session[:referred_by] if session[:referred_by]
     
     if @person.save
-      session[:referred_by] = nil
-      render :action => 'new'
+      flash[:notice] = "Thanks for signing up!"
     else
-      render :action => 'invite'
+      flash[:notice] = "There was an error saving you're address, but we'll fix it asap!"
     end
+    redirect_to root_url
   end
   
   private

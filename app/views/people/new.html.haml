@@ -4,5 +4,6 @@
   = f.text_field :email, :class => 'text'
   = f.submit 'Submit', :class => 'submit'
   - if @person.email.blank?
-    = f.label :email, 'Enter your email to get art sales in your inbox.'
+    = f.label :email, 'Enter your email to sign up.'
   = f.error_message_on :email
+#notice= flash[:notice]
