@@ -5,13 +5,14 @@
     %meta(content="Buy Some Damn Art is a weekly email sale of affordable original artworks." name="description")
     %title= 'Buy Some Damn Art'
     = stylesheet_link_tag 'app'
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Stardos+Stencil:700'
   %body
     #top
       #content
-        %h1= link_to 'Buy Some Damn Art', root_url
+        %h1= link_to 'Buy Some Damn Art!', root_url
         = yield
-        %p.twitter!= 'Follow <a href="http://twitter.com/buysomedamnart">@buysomedamnart</a> on Twitter for news & updates.'
-        -# #footer!= 'Copyright &copy; 2011 Workflow. By <a href="http://abinoda.com">Abi Noda</a>.'
+        -# %p.twitter!= 'Follow <a href="http://twitter.com/buysomedamnart">@buysomedamnart</a> on Twitter for news & updates.'
+        #footer!= 'Copyright &copy; 2011 <a href="http://arthound.net">Art Hound</a>.'
     = javascript_include_tag 'jquery-1.4.2.min'
     = javascript_include_tag 'app'
     = render :partial => 'layouts/google_analytics'
