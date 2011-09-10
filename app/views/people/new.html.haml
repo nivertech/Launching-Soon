@@ -2,9 +2,28 @@
 %p.description!= 'Affordable, original art in your inbox every Tuesday. Launching late Fall 2011.'
 
 <!-- Begin MailChimp Signup Form -->
-= form_tag "http://arthound.us2.list-manage.com/subscribe/post?u=09a6aba1008c7fa5a557f2960&amp;id=756ffb3cab", :method => "post", :name => "mc-embedded-subscribe-form" do
-  = email_field_tag "EMAIL", nil, :placeholder => "Enter your email address to sign up", :class => "text"
-  = submit_tag "subscribe", :value => "Sign up", :class => "submit"
+-# = form_tag "http://arthound.us2.list-manage.com/subscribe/post?u=09a6aba1008c7fa5a557f2960&amp;id=756ffb3cab", :method => "post", :name => "mc-embedded-subscribe-form" do
+-#   = email_field_tag "EMAIL", nil, :placeholder => "Enter your email address to sign up", :class => "text"
+-#   = submit_tag "subscribe", :value => "Sign up", :class => "submit"
+<!--End mc_embed_signup-->
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="http://arthound.us2.list-manage.com/subscribe/post?u=09a6aba1008c7fa5a557f2960&amp;id=756ffb3cab" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+	<h2></h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+
 <!--End mc_embed_signup-->
 
 #notice= flash[:notice]
