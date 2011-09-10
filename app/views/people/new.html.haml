@@ -3,8 +3,8 @@
 
 <!-- Begin MailChimp Signup Form -->
 = form_tag "http://arthound.us2.list-manage.com/subscribe/post?u=09a6aba1008c7fa5a557f2960&amp;id=756ffb3cab", :method => "post", :name => "mc-embedded-subscribe-form" do
-  = email_field_tag "EMAIL", nil, :placeholder => "Enter your email address to sign up", :class => "text"
-  = submit_tag "subscribe", :value => "Sign up", :class => "submit"
+  = email_field_tag "EMAIL", "", :placeholder => "Enter your email address to sign up", :class => "text", :id => "mce-EMAIL"
+  = submit_tag :name => "subscribe", :value => "Sign up", :class => "submit", :id => "mce-embedded-subscribe"
 <!--End mc_embed_signup-->
 
 #notice= flash[:notice]
