@@ -20,7 +20,7 @@ class PeopleController < ApplicationController
   end
   
   def subscribed
-    redirect_to root_url, :notice => "Thanks for signing up!"
+    redirect_to root_url, :notice => "Please check your email for a confirmation link. Thanks!"
   end
 
   private
