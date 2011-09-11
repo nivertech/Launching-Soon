@@ -19,6 +19,10 @@ class PeopleController < ApplicationController
     redirect_to root_url
   end
   
+  def subscribed
+    redirect_to root_url, :notice => "Thanks for signing up!"
+  end
+
   private
   
   def capture_referral
