@@ -4,10 +4,11 @@
 $default-text-shadow-color: rgba(#444, 0.6);
 $default-text-shadow-blur: 3px;
 $default-text-shadow-v-offset: 1px;
+$background-color: #ada9a9;
 
 body {
   color: #fff;
-  background-color: #72C1B0;
+  background-color: $background-color;
   font-family: sans-serif;
 }
 
@@ -15,7 +16,7 @@ body {
   float: left;
   width: 100%;
   height: 300px;
-  background-color: #72C1B0;
+  background-color: $background-color;
 }
 
 #content {
@@ -23,7 +24,7 @@ body {
   position: relative;
   margin: 60px auto 0 auto;
   height: 300px;
-  padding-top: 80px;
+  padding-top: 180px;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 {
 
 h2 {
   font-size: 38px;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
   color: #fff;
   font-family: 'Stardos Stencil', cursive;
   @include single-text-shadow;
@@ -61,12 +62,17 @@ h2 {
   line-height: 1.5;
   font-size: 16px;
   color: #444;
-  clear: both
+  clear: both;
+  font-family: Georgia, serif;
+}
+
+.subtitle {
+  font-size:12px;
 }
 
 form {
   margin-top: 42px;
-  margin-bottom: 78px;
+  margin-bottom: 20px;
   position: relative;
   width: 380px;
   background-color: #fff;
