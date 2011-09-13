@@ -107,12 +107,22 @@ h1 a {
 h2 {
   font-size: 38px;
   margin-bottom: 12px;
-  color: #fff;
+  color: #808080;
   font-family: 'Stardos Stencil', cursive;
-  text-shadow: rgba(68, 68, 68, 0.6) 0px 1px 3px;
+  text-shadow: #eeeeee 0px 1px 0, black 0 -1px 0;
 }
 
-/* line 53, ../../app/stylesheets/application.scss */
+/* line 54, ../../app/stylesheets/application.scss */
+.description {
+  line-height: 1.5;
+  font-size: 22px;
+  letter-spacing: 3px;
+  color: #666;
+  clear: both;
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+
+/* line 63, ../../app/stylesheets/application.scss */
 #notice {
   text-align: center;
   width: 320px;
@@ -121,21 +131,12 @@ h2 {
   line-height: 160%;
 }
 
-/* line 61, ../../app/stylesheets/application.scss */
-.description {
-  line-height: 1.5;
-  font-size: 16px;
-  color: #444;
-  clear: both;
-  font-family: Georgia, serif;
-}
-
-/* line 69, ../../app/stylesheets/application.scss */
+/* line 71, ../../app/stylesheets/application.scss */
 .subtitle {
   font-size: 12px;
 }
 
-/* line 73, ../../app/stylesheets/application.scss */
+/* line 75, ../../app/stylesheets/application.scss */
 form {
   margin-top: 42px;
   margin-bottom: 20px;
@@ -150,7 +151,7 @@ form {
   border-radius: 4px;
   height: 40px;
 }
-/* line 82, ../../app/stylesheets/application.scss */
+/* line 84, ../../app/stylesheets/application.scss */
 form label {
   color: #666;
   position: absolute;
@@ -159,7 +160,7 @@ form label {
   font-size: 12px;
   cursor: text;
 }
-/* line 91, ../../app/stylesheets/application.scss */
+/* line 93, ../../app/stylesheets/application.scss */
 form .formError {
   position: absolute;
   bottom: -18px;
@@ -168,12 +169,12 @@ form .formError {
   color: #FF525D;
   font-size: 9px;
 }
-/* line 100, ../../app/stylesheets/application.scss */
+/* line 102, ../../app/stylesheets/application.scss */
 form input {
   outline: 0;
   border: none;
 }
-/* line 105, ../../app/stylesheets/application.scss */
+/* line 107, ../../app/stylesheets/application.scss */
 form .text {
   position: absolute;
   top: 8px;
@@ -182,7 +183,7 @@ form .text {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 114, ../../app/stylesheets/application.scss */
+/* line 116, ../../app/stylesheets/application.scss */
 form .submit {
   cursor: pointer;
   position: absolute;
@@ -204,7 +205,7 @@ form .submit {
   border-radius: 4px;
 }
 
-/* line 131, ../../app/stylesheets/application.scss */
+/* line 133, ../../app/stylesheets/application.scss */
 .referral_url {
   background-color: #fff;
   -moz-border-radius: 4px;
@@ -219,7 +220,7 @@ form .submit {
   float: left;
 }
 
-/* line 140, ../../app/stylesheets/application.scss */
+/* line 142, ../../app/stylesheets/application.scss */
 .share_links {
   float: left;
   display: block;
@@ -228,24 +229,24 @@ form .submit {
   top: 6px;
   left: 21px;
 }
-/* line 148, ../../app/stylesheets/application.scss */
+/* line 150, ../../app/stylesheets/application.scss */
 .share_links li {
   float: left;
   margin-top: 12px;
   margin-right: 12px;
 }
 
-/* line 154, ../../app/stylesheets/application.scss */
+/* line 156, ../../app/stylesheets/application.scss */
 .twitter {
   font-size: 12px;
   color: #333;
 }
-/* line 158, ../../app/stylesheets/application.scss */
+/* line 160, ../../app/stylesheets/application.scss */
 .twitter a {
   color: #ff00ff;
 }
 
-/* line 163, ../../app/stylesheets/application.scss */
+/* line 165, ../../app/stylesheets/application.scss */
 #footer {
   position: absolute;
   bottom: -24px;
@@ -253,7 +254,7 @@ form .submit {
   color: #666;
   font-size: 11px;
 }
-/* line 170, ../../app/stylesheets/application.scss */
+/* line 172, ../../app/stylesheets/application.scss */
 #footer a {
   text-decoration: underline;
   color: #666;
